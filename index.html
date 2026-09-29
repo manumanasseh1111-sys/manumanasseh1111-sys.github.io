@@ -6,10 +6,9 @@
 <title>Manasseh (Manu) · Electronics &amp; Communication</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Instrument+Sans:wght@400;500&display=swap">
 <style>
-:root{--bg:#F6F3FB;--card:#FFFFFF;--ink:#1E1433;--muted:#665B80;--line:#DCD3EC;--accent:#7C4DFF;--dot:#D9CFEC;
+:root{--bg:#0F0712;--card:#1B0F1C;--ink:#F2E9F1;--muted:#AC93A9;--line:#3A2038;--accent:#B23D75;--accent2:#7B2D8E;--dot:#2A1728;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#100B1C;--card:#181128;--ink:#EEE9F8;--muted:#A094BD;--line:#2D2347;--accent:#A98BFF;--dot:#241B3B}}
-:root[data-theme="dark"]{--bg:#100B1C;--card:#181128;--ink:#EEE9F8;--muted:#A094BD;--line:#2D2347;--accent:#A98BFF;--dot:#241B3B}
+@media (prefers-color-scheme:light){:root[data-theme="light"]{--bg:#F7F1F6;--card:#FFFFFF;--ink:#241220;--muted:#6E5768;--line:#E4D2E1;--accent:#8E2C63;--accent2:#7B2D8E;--dot:#EBD9E8}}
 html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.7 "Instrument Sans",system-ui,sans-serif}
@@ -23,7 +22,7 @@ nav div{display:flex;gap:22px}
 nav a{text-decoration:none;color:var(--muted)}
 nav a:hover{color:var(--accent)}
 .hero{background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px;border-bottom:1px solid var(--line)}
-.hero h1{font-size:clamp(52px,10vw,104px);letter-spacing:-.02em;margin:24px 0 12px;max-width:9em}
+.hero h1{font-size:clamp(52px,10vw,104px);letter-spacing:-.02em;margin:24px 0 12px;max-width:9em;background:linear-gradient(100deg,var(--ink) 30%,var(--accent) 75%,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero p.role{color:var(--accent);font-weight:500;font-size:18px;margin:0 0 14px}
 dl.facts{margin:26px 0 0;display:grid;grid-template-columns:auto 1fr;gap:8px 22px;font-size:16px}
 dl.facts dt{color:var(--muted)}
@@ -168,8 +167,9 @@ html.js .rv.in{opacity:1;transform:none}
   <section id="contact" class="contact">
     <p class="sub">Contact</p>
     <h2>Let's build something.</h2>
-    <a class="mail" href="mailto:manumanasseh1111@gmail.com">manumanasseh1111@gmail.com</a>
-    <div class="links"><a href="https://instagram.com/manasseh31_" rel="noopener">Instagram @manasseh31_</a><a href="https://github.com/manumanasseh1111-sys" rel="noopener">GitHub</a><a href="#">LinkedIn</a></div>
+    <p>Message me on Instagram.</p>
+    <a class="mail" href="https://instagram.com/manasseh31_" rel="noopener">@manasseh31_</a>
+    <div class="links"><a href="https://instagram.com/manasseh31_" rel="noopener">Instagram</a><a href="https://github.com/manumanasseh1111-sys" rel="noopener">GitHub</a></div>
   </section>
   <footer><span>© 2026 Manasseh</span><span>NMAMIT, Nitte</span></footer>
 </main>
